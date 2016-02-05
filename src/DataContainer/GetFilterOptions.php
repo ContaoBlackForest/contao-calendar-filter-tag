@@ -27,6 +27,6 @@ class GetFilterOptions extends Event
             return;
         }
 
-        $event->setOption('tag', $GLOBALS['TL_LANG']['tl_module']['tagEvent']);
+        $event->setOption('tag', $GLOBALS['TL_LANG']['tl_module']['filterPropertyTags']);
     }
 }
