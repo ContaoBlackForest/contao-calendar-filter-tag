@@ -29,7 +29,6 @@ $fields = array(
         'inputType' => 'text',
         'eval' =>
             array (
-                'mandatory' => true,
                 'maxlength' => 255,
             ),
         'sql' => 'varchar(255) NOT NULL default \'\'',
