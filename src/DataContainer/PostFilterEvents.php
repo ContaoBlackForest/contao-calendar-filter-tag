@@ -34,7 +34,7 @@ class PostFilterEvents extends Event
 
     protected function filterEvents(&$events, $filter)
     {
-        foreach ($events as $index => $value) {
+        foreach ($events as $index => &$value) {
             if (!array_key_exists('tag', $value)) {
                 $this->filterEvents($value, $filter);
             }
