@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<xliff version="1.1">
+    <file datatype="php" original="system/modules/contao-calendar-filter-categories/languages/de/tl_calendar_events.xlf" source-language="en" target-language="de">
+        <body>
+            <trans-unit id="tl_calendar_events.tag.0">
+                <source>Filter-tags</source>
+                <target>Filter-Tags</target>
+            </trans-unit>
+            <trans-unit id="tl_calendar_events.tag.1">
+                <source>Here you can enter comma-separated tags. These are considered in the event list module when the filter has been activated.</source>
+                <target>Hier können Sie Komma getrennte Tags eintragen. Diese werden im Modul Eventliste berücksichtigt, wenn der Filter aktiviert wurde.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
