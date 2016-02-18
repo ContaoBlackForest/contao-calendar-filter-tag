@@ -13,9 +13,9 @@
  * @copyright Copyright 2016 ContaoBlackForest
  */
 
-\Bit3\Contao\MetaPalettes\MetaPalettes::prependFields(
+\Bit3\Contao\MetaPalettes\MetaPalettes::appendFields(
     'tl_calendar_events',
-    'expert',
+    'title',
     array('tag',)
 );
 
